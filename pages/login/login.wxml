@@ -1,0 +1,19 @@
+<!--pages/login/login.wxml-->
+<view class="container-login">
+
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="section">
+      <input type="text" name="user" placeholder="用户名" bindinput="inputUser" />
+    </view>
+
+    <view class="section">
+      <input type="text" name="pass" bindinput="inputPass" password="false" placeholder="密码" />
+    </view>
+
+    <button type="primary" formType="submit" size="default" plain="false" hover-class="other-button-hover"> 登录 </button>
+
+
+
+  </form>
+
+</view>

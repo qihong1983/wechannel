@@ -1,0 +1,18 @@
+<!--pages/kpireport/kpireport.wxml-->
+
+
+<view class="container">
+    <view class="table">
+        <view class="tr">
+            <view class="th">操作系统</view>
+            <view class="th">渠道类型</view>
+            <view class="th">线上线下</view>
+        </view>
+        <view class="tr" wx:for="{{dataArr}}" wx:key="userInfoListId">
+            <view class="td">{{item.appCode}}</view>
+            <view class="td">{{item.channelType}}</view>
+            <view class="td">{{item.online}}</view>
+        </view>
+    </view>
+
+</view>

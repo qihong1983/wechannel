@@ -1,0 +1,15 @@
+<!--pages/open/open.wxml-->
+<view class="container">
+    <view class="table">
+        <view class="tr">
+            <view class="th">日期</view>
+            <view class="th">新增用户</view>
+            <view class="th">活跃用户</view>
+        </view>
+        <view class="tr" wx:for="{{dataArr}}" wx:key="userInfoListId">
+            <view class="td">{{item.date}}</view>
+            <view class="td">{{item.newUsers}}</view>
+            <view class="td">{{item.activeUser}}</view>
+        </view>
+    </view>
+</view>

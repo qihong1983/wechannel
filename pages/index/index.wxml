@@ -1,0 +1,94 @@
+<!--index.wxml-->
+<swiper indicator-dots="false" autoplay="true" interval="5000" duration="1000" vertical="true">
+  <swiper-item>
+    <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="slide-image" width="355" height="150" />
+  </swiper-item>
+  <swiper-item>
+    <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg" class="slide-image" width="355" height="150" />
+  </swiper-item>
+  <swiper-item>
+    <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg" class="slide-image" width="355" height="150" />
+  </swiper-item>
+
+</swiper>
+<view class="container-index">
+  <!-- 应用概况开始 -->
+  <view class="item">
+    <view class="hd">
+      渠道数据
+    </view>
+    <view class="bd">
+      <navigator url="../userprodata/userprodata" class="icon-wrap" hover-class="icon-wrap-hover" open-type="navigate">
+        <view class="icon-wrap">
+          <image class="icon-thunk" mode="aspectFit" src="../../images/icon-fdb.png"></image>
+        </view>
+        <text class="title">用户概况</text>
+      </navigator>
+
+      <navigator url="../kpireport/kpireport" class="icon-wrap" hover-class="icon-wrap-hover" open-type="navigate">
+
+        <view class="icon-wrap">
+          <image class="icon-thunk" mode="aspectFit" src="../../images/icon-fdb.png"></image>
+        </view>
+        <text class="title">kpi报表</text>
+
+
+      </navigator>
+
+      <navigator url="../open/open" class="icon-wrap" hover-class="icon-wrap-hover" open-type="switchTab">
+        <view class="icon-wrap">
+          <image class="icon-thunk" mode="aspectFit" src="../../images/icon-fdb.png"></image>
+        </view>
+        <text class="title">开放数据</text>
+      </navigator>
+    </view>
+  </view>
+  <!-- 应用概况结束 -->
+  <!-- KPI报表开始 -->
+  <view class="item">
+    <view class="hd">
+      渠道管理
+    </view>
+    <view class="bd">
+      <view class="icon-wrap">
+        <view class="icon-wrap">
+          <image class="icon-thunk" mode="aspectFit" src="../../images/icon-fdb.png"></image>
+        </view>
+        <text class="title">渠道列表</text>
+      </view>
+
+
+
+      <view class="icon-wrap">
+        <view class="icon-wrap">
+          <image class="icon-thunk" mode="aspectFit" src="../../images/icon-fdb.png"></image>
+        </view>
+        <text class="title">渠道分组</text>
+      </view>
+
+
+
+    </view>
+  </view>
+  <!-- KPI报表结束 -->
+
+  <!-- 开放数据开始 -->
+  <view class="item">
+    <view class="hd">
+      开放数据
+    </view>
+    <view class="bd">
+
+      <view class="icon-wrap">
+        <view class="icon-wrap">
+          <image class="icon-thunk" mode="aspectFit" src="../../images/icon-fdb.png"></image>
+        </view>
+        <text class="title">开放数据</text>
+      </view>
+
+
+    </view>
+  </view>
+  <!-- 开放数据结束 -->
+
+</view>

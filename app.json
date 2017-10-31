@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userpro/userpro",
+    "pages/kpi/kpi",
+    "pages/channelData/channelData",
+    "pages/manage/manage",
+    "pages/usermanager/usermanager",
+    "pages/open/open",
+    "pages/test/test",
+    "pages/login/login",
+    "pages/userprodata/userprodata",
+    "pages/kpireport/kpireport"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon1.png",
+        "selectedIconPath": "images/icon1s.png"
+      },
+      {
+        "pagePath": "pages/channelData/channelData",
+        "text": "渠道数据",
+        "iconPath": "images/icon1.png",
+        "selectedIconPath": "images/icon1s.png"
+      },
+      {
+        "pagePath": "pages/manage/manage",
+        "text": "渠道管理",
+        "iconPath": "images/icon1.png",
+        "selectedIconPath": "images/icon1s.png"
+      },
+      {
+        "pagePath": "pages/open/open",
+        "text": "开放数据",
+        "iconPath": "images/icon1.png",
+        "selectedIconPath": "images/icon1s.png"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "登录",
+        "iconPath": "images/icon1.png",
+        "selectedIconPath": "images/icon1s.png"
+      }
+    ],
+    "color": "#336699"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#336699",
+    "navigationBarTitleText": "思源系统",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "red"
+  }
+}

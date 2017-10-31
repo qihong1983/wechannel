@@ -1,0 +1,21 @@
+<!--pages/channelData/channelData.wxml-->
+      <view class="icon-wrap">
+            <view class="icon-wrap">
+              <image class="icon-thunk" mode="aspectFit" src="../../images/icon-fdb.png"></image>
+            </view>
+          <text class="title">用户概况</text>
+      </view>
+
+      <view class="icon-wrap">
+            <view class="icon-wrap" style="display:flex;">
+              <image class="icon-thunk" mode="aspectFit" src="../../images/icon-fdb.png"></image>
+            </view>
+            <text class="title">kpi报表</text>
+          </view>
+
+      <view class="icon-wrap">
+            <view class="icon-wrap">
+              <image class="icon-thunk" mode="aspectFit" src="../../images/icon-fdb.png"></image>
+            </view>
+            <text class="title">开放数据</text>
+          </view>
